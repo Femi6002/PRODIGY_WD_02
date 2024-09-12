@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    background-color: #c98ee1;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin-bottom: 5em;
+}
+
+.stopwatch-display {
+    font-size: 48px;
+    font-weight: bold;
+    place-items: center;
+    text-align: center;
+    /*gap: 34em;*/
+    /*margin-bottom: 20px;*/
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #c98ee1;
+    border-radius: 5px;
+    border: none;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+#lap-times {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+#lap-times li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#lap-times li:last-child {
+    border-bottom: none;
+}
